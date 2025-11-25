@@ -5,14 +5,19 @@
   "homepage": "https://Capondecap.github.io/Tic-tac-toe-AUPP",
   "scripts": {
     "start": "parcel public/index.html",
-    "build": "parcel build public/index.html",
+    "build": "parcel build public/index.html --public-url /Tic-tact-toe-AUPP/",
     "predeploy": "npm run build",
     "deploy": "gh-pages -d dist"
   },
-  "keywords": ["react", "tictactoe", "teaching"],
+  "keywords": [
+    "react",
+    "tictactoe",
+    "teaching"
+  ],
   "author": "",
   "license": "MIT",
   "dependencies": {
+    "gh-pages": "^6.3.0",
     "react": "^18.2.0",
     "react-dom": "^18.2.0"
   },
